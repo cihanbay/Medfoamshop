@@ -7,68 +7,66 @@
     <style>
         body {
             font-family: 'Tahoma', sans-serif;
-            background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
             margin: 0;
             padding: 0;
+            min-height: 100vh;
+            background: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.85)), 
+                        url('https://imgur.com/a/yIphBvQ') center/cover no-repeat;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
             color: #333;
         }
         .container {
-            background: white;
+            background: rgba(255, 255, 255, 0.9);
             border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            padding: 40px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+            padding: 50px 40px;
             text-align: center;
-            max-width: 400px;
+            max-width: 420px;
             width: 90%;
+            backdrop-filter: blur(10px);
         }
         h1 {
-            font-size: 28px;
+            font-size: 32px;
             margin-bottom: 20px;
             color: #4a6fa5;
         }
         p {
             font-size: 18px;
-            margin-bottom: 30px;
-            color: #666;
+            margin-bottom: 40px;
+            color: #555;
+            line-height: 1.6;
         }
         .btn {
             display: block;
-            margin: 15px auto;
-            padding: 15px 30px;
-            font-size: 18px;
+            margin: 20px auto;
+            padding: 16px 30px;
+            font-size: 19px;
             border-radius: 50px;
             text-decoration: none;
             color: white;
-            width: 80%;
-            transition: 0.3s;
+            width: 85%;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
-        .whatsapp {
-            background: #25D366;
-        }
-        .telegram {
-            background: #0088cc;
-        }
-        .phone {
-            background: #4a6fa5;
-        }
-        .instagram {
-            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
-        }
+        .whatsapp { background: #25D366; }
+        .telegram { background: #0088cc; }
+        .phone { background: #4a6fa5; }
+        .instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); }
         .btn:hover {
-            transform: scale(1.05);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
         }
         .icon {
-            font-size: 24px;
-            margin-left: 10px;
+            font-size: 26px;
+            margin-left: 12px;
+            vertical-align: middle;
         }
         footer {
-            margin-top: 40px;
-            font-size: 14px;
-            color: #999;
+            margin-top: 50px;
+            font-size: 15px;
+            color: #888;
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
